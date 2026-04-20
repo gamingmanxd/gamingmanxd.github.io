@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Banner</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-banner {
+            /* Replace the URL below with your favorite Minecraft screenshot */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                              url('https://images.alphacoders.com/133/1331006.png');
+            
+            height: 400px; /* Adjust height as needed */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-banner h1 {
+            font-size: 5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 4px 4px 0px #373737;
+            margin: 0;
+        }
+
+        /* Responsive adjustment for mobile */
+        @media (max-width: 600px) {
+            .hero-banner h1 {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-banner">
+        <h1>Minecraft</h1>
+    </header>
+
+</body>
+</html>
