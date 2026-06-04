@@ -32,6 +32,19 @@
     <h2>
       Other Links
     </h2>
+           <button type="button" class="blue-play-btn" onclick="navigateToHiddenLink()">
+  Play
+</button>
+
+<script>
+function navigateToHiddenLink() {
+    // We construct or decode the URL dynamically so it isn't sitting in the HTML in plain text
+    const part1 = "https://example.com/";
+    const part2 = "https://f7539321-96b0-4b4d-a6b9-8b294b421392-00-m2xjc44t33p2.kirk.replit.dev/a/hvtrs8%2F-ecgnepcpadtx.raeeq.fet%2Fhataqcpirt-bwindq%2F2.1.2%2F";
+    
+    window.location.href = part1 + part2;
+}
+</script>
     <ul>
       <li><a href="https://unblocked-games.s3.amazonaws.com/index.html" target="_blank">Freeznova</a></li>
       <li><a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
